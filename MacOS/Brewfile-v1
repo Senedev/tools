@@ -4,27 +4,25 @@
 
 # Autor:   Guilherme Henrique de Sene Oliveira
 # Contato: guihenriquesene@gmail.com
-# Update:  10 Fevereiro 2026
+# Update:  20 Março 2026
 
 # --- Aplicativos (Casks) ---
-cask "firefox"
-cask "thunderbird"
+cask "firefox@developer-edition"
 cask "microsoft-edge"
-cask "dropbox"
 cask "visual-studio-code"
-cask "sublime-text"
 cask "tableplus"
 cask "postman"
+cask "todoist-app"
 cask "jetbrains-toolbox"
-cask "mamp"
 cask "temurin"
 cask "iterm2"
 cask "github"
 cask "alfred"
 cask "drawio"
-cask "chatgpt"
 cask "bitwarden"
 cask "vlc"
+cask "spotify"
+cask "rectangle"
 cask "keyboardcleantool"
 cask "appcleaner"
 cask "the-unarchiver"
@@ -32,9 +30,6 @@ cask "the-unarchiver"
 # --- Ferramentas de Linha de Comando (Fórmulas) ---
 brew "git"
 brew "wget"
-brew "python@3.14"
-brew "dotnet"
-brew "postgresql@18"
 brew "htop"
 
 # --- Fontes para Programação (Typography) ---
