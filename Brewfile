@@ -1,5 +1,5 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# BREWFILE v1 (Microsoft Base) - Pós Setup Mac
+# BREWFILE (Microsoft Base) - Pós Setup Mac
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Autor:   Guilherme Henrique de Sene Oliveira

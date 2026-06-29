@@ -1,34 +1,18 @@
-# 🛠️ Tools & Setup
+# tools
 
-Repositório centralizado para automação de infraestrutura local, scripts utilitários e arquivos de configuração (**dotfiles**). Projetado para realizar o provisionamento rápido de ambientes de desenvolvimento em múltiplos sistemas operacionais.
+Dotfiles e scripts para provisionamento rápido de ambientes de desenvolvimento.
 
-> "A automação não é sobre ganhar tempo, é sobre garantir que o ambiente seja idêntico e funcional toda vez." — **Guilherme Sene**
+## macOS
 
----
+**Pré-requisito:** [Homebrew](https://brew.sh)
 
-## 📂 Estrutura do Projeto
-
-O repositório é organizado por ecossistemas para facilitar a portabilidade e manutenção:
-
-* **[macos/](./macos)**: Automação de setup, gerenciamento de pacotes e customização do ambiente Apple.
-* **[windows/](./windows)**: Scripts de provisionamento e listas de software para ambientes Windows.
-* **[linux/](./linux)**: Configurações de shell e scripts de instalação para distribuições Linux.
-* **[outros/](./outros)**: Diversos outros scripts, configurações em arquivos JSON etc.
-
----
-
-## 🚀 Como utilizar no macOS (Manual)
-
-Siga os passos abaixo para configurar seu ambiente macOS clonando o repositório e executando a instalação controlada:
-
-1. Clonar o repositório
-Abra o Terminal, escolha um local de sua preferência e clone o projeto:
 ```bash
-git clone [https://github.com/Senedev/Tools.git](https://github.com/Senedev/Tools.git)
-cd Tools/macos
-
-Executar o script e aguardar a instalação
+git clone https://github.com/Senedev/tools.git
+cd tools
 brew bundle --file=Brewfile -v
-
-Realizar a limpeza dos arquivos temporários
 brew autoremove && brew cleanup --prune=all
+```
+
+## Licença
+
+Uso pessoal. Fique à vontade para fazer fork e adaptar.
