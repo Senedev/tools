@@ -3,8 +3,8 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Autor:   Guilherme Henrique de Sene Oliveira
-# Contato: guihenriquesene@gmail.com
-# Update:  24 Junho 2026
+# Contato: ghenriquesene@outlook.com
+# Update:  29 Junho 2026
 
 # --- Aplicativos (Casks) ---
 cask "firefox@developer-edition"
@@ -16,6 +16,7 @@ cask "claude"
 cask "claude-code"
 cask "todoist-app"
 cask "jetbrains-toolbox"
+cask "logi-options+"
 cask "temurin"
 cask "iterm2"
 cask "github"
