@@ -4,7 +4,7 @@
 
 # Autor:   Guilherme Henrique de Sene Oliveira
 # Contato: ghenriquesene@outlook.com
-# Update:  27 Julho 2026
+# Update:  31 Julho 2026
 
 # --- Fontes para Programação (Typography) ---
 cask "font-jetbrains-mono"
@@ -23,7 +23,10 @@ cask "font-hack"
 # --- Ferramentas de Linha de Comando (Fórmulas) ---
 brew "git"
 brew "wget"
-brew "htop"
+brew "curl"
+brew "gh"
+brew "powershell"
+brew "azure-cli"
 
 # --- Aplicativos (Casks) ---
 cask "firefox@developer-edition"
