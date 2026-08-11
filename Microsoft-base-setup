@@ -4,7 +4,7 @@
 
 # Autor:   Guilherme Henrique de Sene Oliveira
 # Contato: ghenriquesene@outlook.com
-# Update:  31 Julho 2026
+# Update:  11 Agosto 2026
 
 # --- Fontes para Programação (Typography) ---
 cask "font-jetbrains-mono"
@@ -34,8 +34,8 @@ cask "microsoft-edge"
 cask "visual-studio-code"
 cask "postman"
 cask "tableplus"
-cask "chatgpt"
-cask "codex"
+cask "claude"
+cask "claude-code"
 cask "todoist-app"
 cask "jetbrains-toolbox"
 cask "temurin"
