@@ -9,10 +9,8 @@ Dotfiles e scripts para provisionamento rápido de ambientes de desenvolvimento.
 ```bash
 git clone https://github.com/Senedev/tools.git
 cd tools
-brew bundle --file=Brewfile -v
-brew autoremove && brew cleanup --prune=all
+brew bundle --file=Microsoft-base-setup -v && brew autoremove && brew cleanup --prune=all
 ```
-
 ## Licença
 
 Uso pessoal. Fique à vontade para fazer fork e adaptar.
